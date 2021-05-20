@@ -1,6 +1,6 @@
 # Copy
 
-This is a simple bash script that will copy a file from a git repository on your machine to another directory.
+This is a simple bash script that will copy a file from a git repository on your machine to another directory. This is useful if your project relies on a file from another repo.
 
 Step 1: Download the script.
 
