@@ -13,7 +13,7 @@ DIR= #Enter the path to the directory you want to copy the file to e.g. ~/repos/
 git -C $REPO pull
 if [[ -f $FILE ]] && [[ -d $DIR ]]
 then
-  cp $FILE ./tmp
+  cp $FILE $DIR
   echo "File copied successfully."
 else
   echo "$FILE does not exist or $DIR does not exist"
